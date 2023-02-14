@@ -805,6 +805,7 @@ footer .bottom-bar .container {
     transform: translateX(100%);
     background-color:#232323;
     visibility: hidden;
+    display: none;
     opacity: 0;
     transition: 0.3s ease-in;
     height: 100vh;
@@ -819,6 +820,7 @@ footer .bottom-bar .container {
     transform: translateX(0);
     visibility: visible;
     opacity: 1;
+    display: block;
   }
   .navbar nav ul {
     flex-direction: column;
