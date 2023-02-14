@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Fashion Sales Website</title>
+  </head>
+
+  <body>
+<div class="wrapper">
+      <!-- Topbar -->
+      <div class="topbar">
+        <marquee loop="-1"
+          >SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR $1/MONTH</marquee
+        >
+      </div>
+  
+      <!-- Header -->
+      <header class="header">
+        <div class="hamburger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="container">
+          
+          <div class="logo">ella</div>
+          <div class="header-left">
+            <p>Free shipping on All Orders. No Minimum Purchase</p>
+            <div class="actions">
+              <div class="shopping-cart">
+                <img src="./assets/icons/cart.png" alt="cart" />
+                <span>Shopping cart</span>
+                <span class="notification-count">3</span>
+              </div>
+              <div class="wish-list">
+                <img src="./assets/icons/heart.png" alt="my wish-list" />
+                <span>My wish lists</span>
+              </div>
+              <a href="#">Sign in or Create an account</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Navbar -->
+      <div class="triangle"></div>
+  
+      <div class="navbar">
+        <div class="container">
+          <div class="actions">
+            <div class="shopping-cart">
+              <p>Shopping cart</p>
+              <p class="notification-count">3</p>
+            </div>
+            <div class="wish-list">
+              <p>My wish lists</p>
+            </div>
+           <p> <a href="#">Sign in / Sign up</a></p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">New In</a></li>
+              <li><a href="#">Trend</a></li>
+              <li>
+                <a href="#">Collections</a>
+                <div class="tag">
+                  <img src="./assets/icons/Sale.png" alt="sale">
+                </div>
+              </li>
+              <li><a href="#">Lookbook</a></li>
+              <li>
+                <a href="#">Demo</a>
+                <div class="tag" >
+                  <img src="./assets/icons/New.png" alt="new">
+                </div>
+              </li>
+              <li>
+                <a href="#">Shop Instagram</a>
+                <div class="tag">
+                 <img src="./assets/icons/Hot.png" alt="hot">
+                </div>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Brands</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Header -->
+      <div class="header-banner">
+        <div class="container">
+          <div class="infor">
+            <h1>Cosmopolis</h1>
+            <div class="line"></div>
+            <p>
+              Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo
+              lacus meleifend menean diverra loremous.
+            </p>
+            <button class="btn">Shop now</button>
+          </div>
+        </div>
+      </div>
+      <div class="category">
+        <div class="container">
+          <div class="item">
+           
+            <img src="./assets/product-1.jpg" alt="product-1" />
+            <div class="mask"></div>
+            <p>Editor’s Pick</p>
+          </div>
+          <div class="item">
+            <img src="./assets/product-2.jpg" alt="product-2" />
+            <div class="mask"></div>
+            <p>Shoes</p>
+          </div>
+          <div class="item">
+            <img src="./assets/product-3.jpg" alt="product-3" />
+            <div class="mask"></div>
+            <p>Accessories</p>
+          </div>
+        </div>
+      </div>
+      <!-- New Arrivals -->
+      <section class="new-arrivals">
+        <h2>New Arrivals</h2>
+        <a href="#">View all</a>
+        <div class="container">
+          <div id="product-list"></div>
+          <button class="btn" id="show-more">Show more</button>
+        </div>
+      </section>
+  
+      <!-- Show Gallery -->
+      <section class="show-gallery">
+        <h2>
+          <img src="./assets/icons/instagram.png" alt="instagram" /><span
+            >#Ella On Instagram</span
+          >
+        </h2>
+        <p>Phasellus lorem malesuada ligula pulvinar commodo maecenas</p>
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./assets/slider/slider-1.jpg" alt="slide 1"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-2.jpg" alt="slide 2"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-3.jpg" alt="slide 3"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-4.jpg" alt="slide 4"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-5.jpg" alt="slide 5"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-5.jpg" alt="slide 5"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-4.jpg" alt="slide 4"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-3.jpg" alt="slide 3"></div>
+              <div class="swiper-slide"><img src="./assets/slider/slider-2.jpg" alt="slide 2"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        
+          <button class="btn" id="view-gallery">View Gallery</button>
+        </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="footer-column">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="#">New In</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Bags & Accessories</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Sale & Special Offers</a></li>
+              <li><a href="#">Lookbook</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Information</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Reward Program</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#">Search Terms</a></li>
+              <li><a href="#">Advanced Search</a></li>
+              <li><a href="#">Orders and Returns</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Theme FAQs </a></li>
+              <li><a href="#">Consultant</a></li>
+              <li><a href="#">Store Locations</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Newsletter Sign Up</h3>
+            <p>Sign up for exclusive updates, new arrivals & insider only discounts</p>
+            <form>
+              <input type="email" placeholder="Enter your email">
+              <button type="submit">Submit</button>
+            </form>
+            <div class="socials">
+              <img src="./assets/icons/social/facebook.png" alt="fb">
+              <img src="./assets/icons/social/instagram.png" alt="ins">
+              <img src="./assets/icons/social/pinterest.png" alt="pin">
+              <img src="./assets/icons/social/snapchat.png" alt="snap">
+              <img src="./assets/icons/social/twitter.png" alt="twitter">
+            </div>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <div class="container">
+            <div class="bottom-bar__column">
+              <p>© 2014 Ella Demo. All Rights Reserved. Powered by Shopify.</p>
+              <p>Shopify Themes by HaloThemes.com</p>
+            </div>
+            <div class="bottom-bar__column">
+              <img src="./assets/icons/payment-brand.png" alt="payments">
+            </div>
+          </div>
+        </div>
+      </footer>
+</div>
+    
+    <script src="script.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 5,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        0:{
+          slidesPerView: 1,
+        },
+        480: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 5,
+        },
+        1024: {
+          slidesPerView: 5,
+        },
+      },
+    });
+  </script>
+  </body>
+</html>
